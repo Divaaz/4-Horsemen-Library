@@ -23,6 +23,9 @@ div {
     width: 100%;
     height: 150px;
     text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+    color: #4D455D;
     background-image: var(--header-image);
 }
 .navbar {
