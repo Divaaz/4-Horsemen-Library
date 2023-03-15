@@ -29,6 +29,21 @@ div {
     background-color: #4D455D;
     width: 100%;
 }
+.navbar ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+.navbar li {
+    padding-top: 10px;
+}
+.navbar li a {
+    color: #F5E9CF;
+    font-weight: 600;
+    text-decoration: none;
+}
 .flex {
     display: flex;
     flex-wrap: wrap;
