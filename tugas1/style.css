@@ -9,11 +9,23 @@
 body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
-    color: black;
+    color: #121212;
     background-color: #F5E9CF;
 }
 div {
     display: block;
+}
+h2 {
+    color:#4D455D;
+    text-decoration: underline;
+}
+a {
+    color: #8b3c48;
+    text-decoration: none;
+}
+a:hover {
+    color: #4D455D;
+    text-decoration: underline;
 }
 .container {
     max-width: 850px;
