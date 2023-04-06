@@ -15,6 +15,7 @@ div {
     display: block;
 }
 h2 {
+    margin-top: 0px;
     color:#4D455D;
     text-decoration: underline;
 }
