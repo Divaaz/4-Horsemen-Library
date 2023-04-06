@@ -86,6 +86,13 @@ a:hover {
 .table-main tr td {
     vertical-align: top;
 }
+.input {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px 0px;
+    display: inline-block;
+    border-radius: 5px;
+}
 aside{
     background-color: #7f6b9c;
     width: 200%;
