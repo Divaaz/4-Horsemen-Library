@@ -64,7 +64,7 @@ a:hover {
     display: flex;
     flex-wrap: wrap;
 }
-.img-boxing {
+/* .img-boxing {
     display: inline-block;
     vertical-align: top;
     clear: right;
@@ -78,7 +78,7 @@ a:hover {
     content: "";
     clear: both;
     display: table;
-}
+} */
 .table-main {
     table-layout: auto; 
     width: 100%;
@@ -114,13 +114,13 @@ a:hover {
     font-size: smaller;
     border: 1px solid #4D455D;
 }
-aside{
+/* aside{
     background-color: #7f6b9c;
     width: 200%;
     padding: 25px;
     font-size: smaller;
     border: 1px solid #4D455D;
-}
+} */
 main{
     background-color: #7DB9B6;
     flex: 1;
