@@ -1,7 +1,7 @@
 # 4 Horsemen Library website
 _Website ini dibuat untuk memenuhi Ujian Tengah Semester mata kuliah Perancangan Aplikasi Perpustakaan 2023_
 
-### Disusun oleh:
+### Disusun oleh kelompok 2 mata kuliah perancangan aplikasi perpustakaan angkatan 2021:
 1. Annisa D. [034]
 2. Meilisa Ardiana [069]
 3. Fitri Yulinnadhiroh [081]
