@@ -106,6 +106,14 @@ a:hover {
 .input-submit:hover {
     background-color: #4D455D;
 }
+.rightSideBar {
+    order: 3;
+    background-color: #7f6b9c;
+    min-width: 25%;
+    padding: 25px;
+    font-size: smaller;
+    border: 1px solid #4D455D;
+}
 aside{
     background-color: #7f6b9c;
     width: 200%;
@@ -116,8 +124,8 @@ aside{
 main{
     background-color: #7DB9B6;
     flex: 1;
-    padding: 25px;
     order: 2;
+    padding: 25px;
     border: 1px solid #7f6b9c;
 }
 footer{
