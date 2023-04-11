@@ -86,6 +86,21 @@ a:hover {
 .table-main tr td {
     vertical-align: top;
 }
+.table-bookcover {
+    width: 170px;
+    max-width: 170px;
+}
+.table-description {
+    width: 330px;
+    max-width: 330px;
+}
+.table-book-id {
+    width: 130px;
+    max-width: 130px;
+}
+.p-description {
+    margin-top: -10px;
+}
 .input {
     width: 50%;
     padding: 10px 20px;
