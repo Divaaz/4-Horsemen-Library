@@ -108,10 +108,11 @@ a:hover {
 }
 .rightSideBar {
     order: 3;
+    color: #F5E9CF;
     background-color: #7f6b9c;
     min-width: 25%;
+    max-width: 90px;
     padding: 25px;
-    font-size: smaller;
     border: 1px solid #4D455D;
 }
 /* aside{
