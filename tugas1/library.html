@@ -18,25 +18,57 @@
         </nav>
         <div class="flex">
             <main>
+                <h2>Daftar koleksi</h2>
+                <table class="table-main">
+                    <!-- buku 1 -->
+                    <tr>
+                        <td width="170px"><img src="/tugas1/tugas1/Media/Akuntansi_pengantar_1.jpg" alt="Akuntansi Pengantar 1" width="120px"></td>
+                        <td><p style="margin-bottom: -15px; margin-top: -5px"><b>Akuntansi Pengantar 1</b></p>
+                            <p>The new central library is one of the most anticipated public projects in Finland for years, an ambitious attempt to reinvent the library for its population’s future needs <a href="https://www.independent.co.uk/news/new-library-helsinki-3d-printer-laser-cutter-digital-technology-architecture-a8692496.html">read more</a>.</p></td>
+                    </tr>
+                    <!-- buku 2 -->
+                    <tr>
+                        <td width="170px"><img src="/tugas1/tugas1/Media/induksi_ovulasi.jpg" alt="Aplikasi Klinis Induk Ovulasi dan Stimulasi Ovarium" width="120px"></td>
+                        <td><p style="margin-bottom: -15px; margin-top: -5px;"><b>Aplikasi Klinis Induk Ovulasi dan Stimulasi Ovarium</b></p>
+                            <p>The 43rd International Association of University Libraries (IATUL) Annual Conference 2023 will be proudly hosted by Zayed University in Dubai and the American University of Sharjah in the United Arab Emirates. Click <a href="https://conul.ie/event/43rd-iatul-conference-uae-2023/">here</a> to register.</p></td>
+                    </tr>
+                    <!-- buku 3 -->
+                    <tr>
+                        <td widht="170px"><img src="/tugas1/tugas1/Media/asuhan_keperawatan.jpg" alt="Aplikasi Praktis Asuhan Keperawatan Keluarga" width="120px"></td>
+                        <td><p style="margin-bottom: -15px; margin-top: -5px;"><b>Aplikasi Praktis Asuhan Keperawatan Keluarga
+                        </b></p>
+                        <p>Children’s Laureate Cressida Cowell has reminded us to not take libraries for granted, says Prudence Wade. <a href="https://www.independent.co.uk/travel/libraries-prime-minister-covid-architecture-visitors-b1830541.html">Read more</a></p></td>
+                    </tr>
+                    <!-- buku 4 -->
+                    <tr>
+                        <td widht="170px"><img src="/tugas1/tugas1/Media/A-ZPsikologi.jpg" alt="A-Z Psikologi: Berbagai Kumpulan Topik Psikologi" width="120px"></td>
+                        <td><p style="margin-bottom: -15px; margin-top: -5px;"><b>A-Z Psikologi: Berbagai Kumpulan Topik Psikologi
+                        </b></p>
+                        <p>Children’s Laureate Cressida Cowell has reminded us to not take libraries for granted, says Prudence Wade. <a href="https://www.independent.co.uk/travel/libraries-prime-minister-covid-architecture-visitors-b1830541.html">Read more</a></p></td>
+                    </tr>
+                    <!-- buku 5 -->
+                    <tr>
+                        <td widht="170px"><img src="/tugas1/tugas1/Media/BANGSAGAGAL.jpg" alt="Bangsa Gagal: Mencari Identitas kebangsaan" width="120px"></td>
+                        <td><p style="margin-bottom: -15px; margin-top: -5px;"><b>7Bangsa Gagal: Mencari Identitas kebangsaan
+                        </b></p>
+                        <p>Children’s Laureate Cressida Cowell has reminded us to not take libraries for granted, says Prudence Wade. <a href="https://www.independent.co.uk/travel/libraries-prime-minister-covid-architecture-visitors-b1830541.html">Read more</a></p></td>
+                    </tr>
+                </table>
             </main>
             <aside></aside>
         </div>
         <div class="flex" style="margin-top: 10px;">
             <main>
-            <h2>Daftar di sini untuk menjadi anggota kami</h2>
-            <form action="membuat-anggota.php" method="post" autocomplete="off">
+            <h2>Peminjaman Buku</h2>
+            <form action="sirkulasi.php" method="post" autocomplete="off">
                 <label for="fname">First Name</label>
                 <input class="input" type="text" name="fname" value maxlength="50" size="30" placeholder="Masukkan nama depan" required>
                 <label for="lname">Last Name</label>
                 <input class="input" type="text" name="lname" value maxlength="50" size="30" placeholder="Masukkan nama belakang" required>
                 <label for="email">Email</label>
                 <input class="input" type="email" name="email" value maxlength="50" size="30" placeholder="Masukkan email" required>
-                <label for="gender">Gender</label>
-                <select  name="gender" class="input" required>
-                    <option value="laki-laki">laki-laki</option>
-                    <option value="perempuan">perempuan</option>
-                    <option value="tidak ingin menyebutkan">tidak ingin menyebutkan</option>
-                </select>
+                <label for="gender">Kode Buku</label>
+                <input class="input" type="id_buku" name="Kode Buku" value maxlength="50" size="30" placeholder="Masukkan kode buku" required>
                 <input type="submit" value="Submit" class="input-submit">
             </form>
             </main>
