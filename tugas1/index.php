@@ -13,7 +13,7 @@
         <nav class="navbar" style="margin-bottom: 10px;">
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="library.html">Library</a></li>
+                <li><a href="library.php">Library</a></li>
             </ul>
         </nav>
         <div class="flex">

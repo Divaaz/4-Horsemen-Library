@@ -12,8 +12,8 @@
         <div class="header">4 Horsemen Library</div>
         <nav class="navbar" style="margin-bottom: 10px;">
             <ul>
-                <li><a href="webkelompok2.html">Home</a></li>
-                <li><a href="library.html">Library</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="library.php">Library</a></li>
             </ul>
         </nav>
         <div class="flex">
