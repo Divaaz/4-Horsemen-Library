@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4 Horsemen Library</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">4 Horsemen Library</div>
+        <nav class="navbar" style="margin-bottom: 10px;">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="library.php">Library</a></li>
+            </ul>
+        </nav>
+        <div class="flex">
+            <main>
+                <h2>Latest News</h2>
+                <table class="table-main">
+                    <!-- konten 1 -->
+                    <tr>
+                        <td width="170px"><img src="/4-Horsemen-Library/tugas1/Media/Helsinki-Library.jpg" alt="Helsinki-Library" width="160px"></td>
+                        <td><p style="margin-bottom: -15px; margin-top: -5px"><b>Forget books, Helsinki's new library has laser cutters and 3D printers</b></p>
+                            <p>The new central library is one of the most anticipated public projects in Finland for years, an ambitious attempt to reinvent the library for its population’s future needs <a href="https://www.independent.co.uk/news/new-library-helsinki-3d-printer-laser-cutter-digital-technology-architecture-a8692496.html">read more</a>.</p></td>
+                    </tr>
+                    <!-- konten 2 -->
+                    <tr>
+                        <td width="170px"><img src="/4-Horsemen-Library/tugas1/Media/IATUL.jpg" alt="IATUL Conference 2023" width="160px"></td>
+                        <td><p style="margin-bottom: -15px; margin-top: -5px;"><b>43rd IATUL Conference UAE 2023</b></p>
+                            <p>The 43rd International Association of University Libraries (IATUL) Annual Conference 2023 will be proudly hosted by Zayed University in Dubai and the American University of Sharjah in the United Arab Emirates. Click <a href="https://conul.ie/event/43rd-iatul-conference-uae-2023/">here</a> to register.</p></td>
+                    </tr>
+                    <!-- konten 3 -->
+                    <tr>
+                        <td widht="170px"><img src="/4-Horsemen-Library/tugas1/Media/Newbirmingham.jpg" alt="libraries in Uk and Ireland" width="160px"></td>
+                        <td><p style="margin-bottom: -15px; margin-top: -5px;"><b>7 of the most beautiful libraries in the UK and Ireland
+                        </b></p>
+                        <p>Children’s Laureate Cressida Cowell has reminded us to not take libraries for granted, says Prudence Wade. <a href="https://www.independent.co.uk/travel/libraries-prime-minister-covid-architecture-visitors-b1830541.html">Read more</a></p></td>
+                    </tr>
+                </table>
+            </main>
+            <nav class="rightSideBar" style="margin-left: 10px;">
+                <b>Meet our team</b>
+                <p>Annisa D. [034]</p>
+                <p>Meilisa Ardiana [069]</p>
+                <p>Fitri Yulinnadhiroh [081]</p>
+                <p>Diva Azzahra G [082]</p>
+            </nav>
+        </div>
+        <div class="flex" style="margin-top: 10px;">
+            <main>
+            <h2>Daftar di sini untuk menjadi anggota kami</h2>
+            <form action="membuat-anggota.php" method="post" autocomplete="off">
+                <label for="fname">First Name</label>
+                <input class="input" type="text" name="fname" value maxlength="50" size="30" placeholder="Masukkan nama depan" required>
+                <label for="lname">Last Name</label>
+                <input class="input" type="text" name="lname" value maxlength="50" size="30" placeholder="Masukkan nama belakang" required>
+                <label for="email">Email</label>
+                <input class="input" type="email" name="email" value maxlength="50" size="30" placeholder="Masukkan email" required>
+                <label for="gender">Gender</label>
+                <select  name="gender" class="input" placeholder="Pilih gender" required>
+                    <option value="laki-laki">laki-laki</option>
+                    <option value="perempuan">perempuan</option>
+                    <option value="tidak ingin menyebutkan">tidak ingin menyebutkan</option>
+                </select>
+                <input type="submit" value="Submit" class="input-submit">
+            </form>
+        </main>
+        </div>
+    </div>
+    <footer style="margin-top: 10px;">copyright ©4 Horsemen Library 2023</footer>
+</body>
+</html>
